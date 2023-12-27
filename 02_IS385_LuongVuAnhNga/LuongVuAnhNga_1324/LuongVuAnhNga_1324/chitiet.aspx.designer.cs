@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace quanlybanhoa_123
+namespace LuongVuAnhNga_1324
 {
 
 

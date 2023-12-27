@@ -7,16 +7,16 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{387E43AB-96BC-4806-B43A-78D88A776A57}</ProjectGuid>
+    <ProjectGuid>{973592F9-6E62-4100-8D8F-6796C77045D6}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>quanlybanhoa_123</RootNamespace>
-    <AssemblyName>quanlybanhoa_123</AssemblyName>
+    <RootNamespace>LuongVuAnhNga_1324</RootNamespace>
+    <AssemblyName>LuongVuAnhNga_1324</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort>44300</IISExpressSSLPort>
+    <IISExpressSSLPort>44391</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -67,13 +67,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\qlbanhoa.mdf" />
-    <Content Include="App_Data\qlbanhoa_log.ldf">
-      <DependentUpon>qlbanhoa.mdf</DependentUpon>
+    <Content Include="App_Data\QLBH.mdf" />
+    <Content Include="App_Data\QLBH_log.ldf">
+      <DependentUpon>QLBH.mdf</DependentUpon>
     </Content>
     <Content Include="chitiet.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="Home.aspx" />
+    <Content Include="home.aspx" />
     <Content Include="sanpham.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -88,22 +88,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Home.aspx.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
+    <Compile Include="home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Home.aspx.designer.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
+    <Compile Include="home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
     </Compile>
     <Compile Include="ketnoi.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="qlbh.Master.cs">
-      <DependentUpon>qlbh.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="qlbh.Master.designer.cs">
-      <DependentUpon>qlbh.Master</DependentUpon>
-    </Compile>
     <Compile Include="sanpham.aspx.cs">
       <DependentUpon>sanpham.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -111,10 +104,17 @@
     <Compile Include="sanpham.aspx.designer.cs">
       <DependentUpon>sanpham.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="qlbh.Master" />
+    <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -138,9 +138,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>61793</DevelopmentServerPort>
+          <DevelopmentServerPort>63857</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44300/</IISUrl>
+          <IISUrl>https://localhost:44391/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
